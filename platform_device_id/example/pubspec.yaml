@@ -4,14 +4,15 @@ description: Demonstrates how to use the platform_device_id plugin.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  platform_device_id_plus:
-    path: ../
+  # platform_device_id_plus:
+  #   path: ../
+  platform_device_id_plus: ^1.0.7
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
